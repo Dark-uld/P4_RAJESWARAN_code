@@ -1,7 +1,8 @@
 * {
     font-family: "helvetica";
+    font-size: 15px;
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 body {
@@ -23,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -42,6 +43,10 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+.marron {
+    color: #3A2116!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -115,7 +120,7 @@ a:hover {
 
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #ffffffb3;
 }
 
 .d-bloc button:hover {
@@ -286,6 +291,17 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.footer_logo{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
 }
 
 .navbar {
@@ -506,16 +522,7 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-group {
-    display:flex;
-    flex-direction: column;
-    row-gap: 5px;
-    margin-bottom: 10px;
-}
 
-.form-group {
-    max-width: 500px;
-}
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -676,9 +683,7 @@ a[data-lightbox]:hover img {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -741,7 +746,7 @@ p {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(243, 152, 108, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -763,12 +768,10 @@ p {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #3A2116!important;
 }
 
-.tc-black {
-    color:rgba(0, 0, 0, 1);
-}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -814,7 +817,7 @@ p {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 .quote {
