@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet">
+    <meta name="description" content="Vous avez un projet en tête, que ce soit la création de site ou l'amélioration du design d'un site existant : contactez nous sur cette page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="google-site-verification" content="fkHqYqKkCq0D2zbOvn2IF2J6aPOBL7Nge4jxBkM0ZuI" />
 	<link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
@@ -34,11 +34,11 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" class="logo" alt="Logo La chouette agence " /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="ouvrir" tabindex="0">
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="ouvrir menu de navigation" tabindex="0">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" tabindex="-1">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
@@ -59,7 +59,7 @@
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture " id="bloc-6">
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row" tabindex="0">
 			<div class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
@@ -104,14 +104,14 @@
 						</label>
 						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Entrez les détails de votre projet" aria-labelledby="message form_1" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Envoyez votre formulaire">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
 				<a href="mailto:contact@lachouetteagence.com" title="Cliquez pour ouvrir une application email">contact@lachouetteagence.com</a>
-				<p>
+				<p tabindex="0" aria-label="Adresse de la chouette agence">
 					2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
@@ -126,12 +126,12 @@
 
 
 <!-- Footer - bloc-8 -->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="col-sm-12 ">
-					<p class="text-center tc-white">
+					<p class="text-center tc-white" tabindex="0">
 						La chouette agence - Agence web basée à Lyon.<br>
 					</p>
 				</div>
@@ -139,22 +139,22 @@
 				<div class="row row-no-gutters social ">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social-icon" href="https://twitter.com/chouette_agence" aria-label="Notre page twitter"><span class="fa fa-twitter icon-md marron"></span></a>
+							<a class="social-icon" href="https://twitter.com/chouette_agence" aria-label="Allez à notre page twitter"><span class="fa fa-twitter icon-md marron"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social-icon" href="https://www.facebook.com/La-Chouette-Agence-113157997691885/" aria-label="Notre page facebook"><span class="fa fa-facebook icon-md marron"></span></a>
+							<a class="social-icon" href="https://www.facebook.com/La-Chouette-Agence-113157997691885/" aria-label="Allez à notre page facebook"><span class="fa fa-facebook icon-md marron"></span></a>
 						</div>
 					</div> 
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social-icon" href="https://dribbble.com/" aria-label="Notre page dribbble"><span class="fa fa-dribbble icon-md marron" ></span></a>
+							<a class="social-icon" href="https://dribbble.com/" aria-label="Allez à notre page dribbble"><span class="fa fa-dribbble icon-md marron" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social-icon" href="https://www.instagram.com/la_chouette_agence/" aria-label="Notre page instagram"><span class="fa fa-instagram icon-md marron"></span></a>
+							<a class="social-icon" href="https://www.instagram.com/la_chouette_agence/" aria-label="Allez à notre page instagram"><span class="fa fa-instagram icon-md marron"></span></a>
 						</div>
 					</div>
 				</div>
