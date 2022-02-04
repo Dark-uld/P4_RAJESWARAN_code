@@ -55,18 +55,24 @@ a:hover {
 
 .btn:focus {
     background-color: black;
-    transform: scale(1.01);
+    animation: focusing 0.6s linear infinite;
 }
 
-button:focus {
+.ui-navbar-toggle:hover, .ui-navbar-toggle:focus {
     background-color: rgba(255, 181, 148,0.7);
+    animation: focusing 0.6s linear infinite;
+
 }
 
-button:active {
-    background-color: rgba(255, 118, 55, 0.7);
+
+@keyframes focusing {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
-
-
 
 
 
@@ -380,9 +386,7 @@ button:active {
     border: 0px;
 }
 
-.navbar-toggle:hover {
-    background: transparent!important;
-}
+
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
